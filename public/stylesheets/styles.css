@@ -1,0 +1,78 @@
+.logo{
+    padding-right:30px;
+    padding-left:30px;
+}
+body{
+    margin:50px;
+    border-style:1px solid #dad;
+    font-family:'Segoe UI';
+    color:#666;
+    box-shadow:1px 1px 4px grey;
+    padding-bottom:80px;
+    
+}
+.all{
+    padding-left:30px;
+    padding-right:30px;
+    padding-top:150px;
+    
+
+}
+.bill{
+    text-align:left;
+
+    
+}
+.billandinvoice{
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-start;
+}
+td{
+    border-bottom:solid;
+    border-width:1px;
+    border-color:#dad7d7;
+}
+h3{
+    background-color:#1F3A93; 
+    color:white; 
+    padding-left:8px;
+}
+.billToAddress{
+    width:250px;
+}
+.invoiceDetails{
+    text-align:right;
+    page-break-inside:avoid;
+}
+.one{
+    text-align:right;
+}
+.two{
+    text-align:left;
+}
+@media print {
+  body::before {
+    content: "AXIOMIO";
+    font-family: 'Inter', sans-serif;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-30deg);
+    font-size: 80px;
+    color: rgba(0, 0, 0, 0.1); /* Light grey watermark */
+    z-index: -1;
+    white-space: nowrap;
+    pointer-events: none;
+  }
+}
+
+.footer {
+    margin-top: 40px;
+    font-size: 13px;
+    text-align: center;
+    color: #999;
+}
+
+
+

@@ -1,0 +1,35 @@
+.one {
+    margin: 150px 200px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    padding: 0 10px 50px;
+    border-radius: 15px;
+    background: #ffffff; /* Solid clean background for form */
+}
+
+body {
+    background: linear-gradient(135deg, #1e3c72, #2a5298); /* Professional dark-blue gradient */
+    transition: background-image 0.5s ease-in-out;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+}
+/* Style for both buttons */
+input[type="submit"],
+input::file-selector-button {
+    background-color: #2a5298; /* Match gradient tone */
+    color: white;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 20px;
+    margin: 10px 0;
+    cursor: pointer;
+    font-size: 8px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Hover effect */
+input[type="submit"]:hover,
+input::file-selector-button:hover {
+    background-color: #1e3c72;
+    transform: scale(1.05);
+}
+
